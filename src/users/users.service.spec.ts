@@ -10,6 +10,7 @@ describe('UsersService', () => {
     }).compile();
 
     service = module.get<UsersService>(UsersService);
+    
   });
 
   it('should be defined', () => {

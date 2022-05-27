@@ -1,6 +1,6 @@
 export class CreateUserDTO {
-    readonly id: number;
-    readonly name: string;
-    readonly address: string;
-    readonly age: number;
+    id: number;
+    name: string;
+    address: string;
+    age: number;
 }

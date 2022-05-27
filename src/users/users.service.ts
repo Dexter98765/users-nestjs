@@ -30,7 +30,7 @@ export class UsersService {
 
         return new Promise (resolve=>{
 
-            this.users.push(user);
+           // this.users.push(user);
             resolve(this.users);
         });
     }
